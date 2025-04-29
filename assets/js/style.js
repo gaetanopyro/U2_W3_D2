@@ -17,12 +17,11 @@ const fetchCharacters = () => {
         col.className = "col-12 col-sm-6 col-md-4 col-lg-3";
 
         col.innerHTML = `<div class="card">
-                            <img src= ${book.img} class="card-img-top" alt="book image">
+                            <img src= ${book.img} class="card-img-top " alt="book image">
                             <div class="card-body">
                                 <h5 class="card-title text-truncate">${book.title}</h5>
-                                <p class="card-text"> Price: ${book.price} $</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                                <a href="#" class="btn btn-primary">Add to Cart</a>                            
+                                <p class="card-text"> Price: ${book.price} </p>
+                                <a href="#" class="btn btn-primary">Scarta</a>                            
                             </div>
                          </div>`;
 
