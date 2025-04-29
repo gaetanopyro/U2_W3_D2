@@ -16,7 +16,7 @@ const fetchCharacters = () => {
         const col = document.createElement("div");
         col.className = "col-12 col-sm-6 col-md-4 col-lg-3";
 
-        col.innerHTML = `<div class="card">
+        col.innerHTML = `<div class="card m-2">
                             <img src= ${book.img} class="card-img-top " alt="book image">
                             <div class="card-body">
                                 <h5 class="card-title text-truncate">${book.title}</h5>
@@ -31,21 +31,6 @@ const fetchCharacters = () => {
 
     .catch((error) => console.log(error));
 };
-
-/*
-
-        
-        
-
-        
-
-        
-        
-      });
-    })
-
-};
-*/
 
 window.onload = () => {
   fetchCharacters();
